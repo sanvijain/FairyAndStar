@@ -70,6 +70,6 @@ function keyPressed() {
 	}
 
  if (keyCode === DOWN_ARROW) {
-		Matter.Body.setStatic(starBody,false); 
+	Matter.Body.setStatic(starBody,false); 
 	}
 }
